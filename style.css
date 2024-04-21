@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+section {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(clinica.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navegacao i {
+  font-size: 50px;
+  padding: 20px 15px;
+}
+
+header .navegacao a {
+  color: #000;
+  background: #587065dc;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+header .navegacao a:not(:last-child) {
+  margin-right: 30px;
+}
+
+header .navegacao a:hover {
+  background: #fff;
+}
+
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
+}
+
+.content .informacoes h2 {
+  color: #ffffff;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.content .informacoes p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.content .informações-botão {
+  color: #fff;
+  background: #226a80;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.content .informações-botão:hover {
+  background: #0c4f60;
+}
+
+.icones-midia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.icones-midia a {
+  position: relative;
+  color: #111;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+
+.icones-midia a:not(:last-child) {
+  margin-right: 60px;
+}
+
+.icones-midia a:hover {
+  transform: scale(1.5);
+}
